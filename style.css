@@ -1,0 +1,28 @@
+header{
+
+   width: 800px; 
+   height: 200px;
+   background-color: lightgreen;
+   padding: 60px;
+   
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav{
+    text-align: center;
+}
+
+section{
+    max-width: 800px;
+    text-align: left;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+    
+}
