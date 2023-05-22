@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>GROS TITRE</h1>
+            <nav>
+                <ul>
+                    <a href="index.html">Accueil</a><br>
+                    <a href="Blog">Blog</a><br>
+                    <a href="">Galerie</a><br>
+                    <a href="contact.html">Contact</a>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div>
+        <form action="POST">
+            <fieldset>
+                <legend>Formulaire de contact</legend>
+                <div>
+                    <label for="nom">Entrez votre nom</label>
+                    <input type="text" name="nom" placeholder="Nom" maxlength="20" minlength="2" required>
+                </div>
+                <div>
+                    <label for="mail">Entrez votre e-mail</label>
+                    <input type="email" name="mail" placeholder="E-mail" required>
+                </div>
+                <div>
+                    <label for="com">Entrez votre commentaire:</label><br>
+                    <textarea name="com" id="com" cols="70" rows="10" placeholder="Votre commentaire ici"></textarea>
+                </div>
+                <div>
+                    <label for="copie">Envoyez une copie</label>
+                    <input type="checkbox" name="checkbox" checked>
+                </div>
+                <div>
+                    <input type="submit" name="Envoyer" id="submit">
+                    <input type="reset" name="reset">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <div>
+        <footer>
+            <ul>
+                <a href="http://"> lien fake 1</a>
+                <a href="http://"> lien fake 2</a>
+                <a href="http://"> lien fake 3</a>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
