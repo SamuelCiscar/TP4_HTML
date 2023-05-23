@@ -5,12 +5,15 @@ body {
     margin: auto;
 }
 
-
+.banner {
+    width: 800px;
+    height: 200px;
+}
 
 header{
     
    width: 800px; 
-   height: 200px;
+   height: auto;
   /* background-color: lightgreen; */
    padding: 60px;
    text-align: center;
